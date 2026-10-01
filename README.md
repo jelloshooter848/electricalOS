@@ -22,6 +22,15 @@ pnpm test
 pnpm mobile        # expo start
 ```
 
+## Try it in the browser
+
+```sh
+pnpm --filter mobile web:export   # static build in apps/mobile/dist
+```
+
+Serve `apps/mobile/dist` with any static file server. The build is a single-page
+app; the Ask tab is a placeholder until Phase 3.
+
 ## Status
 
 Phase 2. Nine offline calculators: voltage drop, conductor ampacity and
