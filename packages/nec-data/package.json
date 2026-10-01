@@ -1,0 +1,18 @@
+{
+  "name": "@electricalos/nec-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original, paraphrased NEC reference entries and derived tables, keyed by edition and section. Contains no NFPA text.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

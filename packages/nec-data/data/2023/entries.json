@@ -1,0 +1,194 @@
+[
+  {
+    "id": "310.16",
+    "edition": 2023,
+    "section": "310.16",
+    "title": "Conductor ampacity table (up to 3 conductors, 30 C)",
+    "summary": "The main ampacity table for insulated conductors rated up to 2000 V when no more than three current-carrying conductors share a raceway, cable, or direct burial and the ambient is 30 C. Columns are by insulation temperature rating; the 60 C, 75 C, and 90 C values for copper and aluminum are what the sizing calculator starts from.",
+    "fieldNotes": [
+      "Pick the column by the weakest link: the conductor insulation rating or the equipment termination rating, whichever is lower (110.14(C)).",
+      "Apply ambient correction and bundling adjustment to the insulation column, then compare against the termination column."
+    ],
+    "related": [
+      "310.15",
+      "110.14",
+      "240.4"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "ampacity",
+      "wire size",
+      "THHN",
+      "copper",
+      "aluminum"
+    ]
+  },
+  {
+    "id": "310.15",
+    "edition": 2023,
+    "section": "310.15",
+    "title": "Ampacity corrections and adjustments",
+    "summary": "Reduces table ampacity when the ambient temperature is above 30 C, when more than three current-carrying conductors are bundled, or when conductors are in sunlight on a roof. Also lists what does not count as a current-carrying conductor, such as most neutrals on balanced circuits and equipment grounding conductors.",
+    "fieldNotes": [
+      "Four to six current-carrying conductors: 80%. Seven to nine: 70%. Ten to twenty: 50%.",
+      "A raceway nipple 24 inches or shorter is exempt from the bundling adjustment."
+    ],
+    "related": [
+      "310.16"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "derating",
+      "correction factor",
+      "adjustment factor",
+      "ambient",
+      "bundling"
+    ]
+  },
+  {
+    "id": "110.14",
+    "edition": 2023,
+    "section": "110.14(C)",
+    "title": "Termination temperature limits",
+    "summary": "Equipment terminations limit how much of a conductor's ampacity you can use. Unless the equipment is marked for a higher rating, circuits rated 100 A or less use the 60 C column and circuits over 100 A use the 75 C column, even when the conductor insulation is rated 90 C.",
+    "fieldNotes": [
+      "Most modern breakers and lugs are marked 60/75 C, which lets you use the 75 C column for small circuits too."
+    ],
+    "related": [
+      "310.16"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "termination",
+      "lug rating",
+      "60/75"
+    ]
+  },
+  {
+    "id": "240.4",
+    "edition": 2023,
+    "section": "240.4(D)",
+    "title": "Small conductor overcurrent limits",
+    "summary": "Caps the overcurrent device for small conductors regardless of table ampacity: 15 A for 14 AWG copper, 20 A for 12 AWG copper, 30 A for 10 AWG copper, 15 A for 12 AWG aluminum, and 25 A for 10 AWG aluminum, unless a specific rule such as motor or tap provisions allows otherwise.",
+    "related": [
+      "310.16"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "breaker size",
+      "small conductor",
+      "14 AWG",
+      "12 AWG"
+    ]
+  },
+  {
+    "id": "210.19",
+    "edition": 2023,
+    "section": "210.19(A)(1)",
+    "title": "Branch-circuit conductor sizing and voltage drop guidance",
+    "summary": "Branch-circuit conductors must have an ampacity of at least the noncontinuous load plus 125% of the continuous load before correction, and at least the full load after correction and adjustment. An informational note suggests keeping voltage drop to 3% on the branch circuit and 5% total with the feeder for reasonable efficiency; that guidance is advisory, not enforceable.",
+    "related": [
+      "215.2",
+      "310.16"
+    ],
+    "calculators": [
+      "voltage-drop",
+      "ampacity"
+    ],
+    "keywords": [
+      "continuous load",
+      "125%",
+      "voltage drop",
+      "3 percent"
+    ]
+  },
+  {
+    "id": "chapter9.table1",
+    "edition": 2023,
+    "section": "Chapter 9, Table 1",
+    "title": "Maximum conduit fill percentages",
+    "summary": "Limits how much of a raceway's cross-section conductors may occupy: 53% for one conductor, 31% for two, and 40% for three or more. A note allows 60% for a nipple not longer than 24 inches. Table 4 gives raceway areas and Table 5 gives conductor areas used with these percentages.",
+    "related": [
+      "chapter9.table4",
+      "chapter9.table5"
+    ],
+    "calculators": [
+      "conduit-fill"
+    ],
+    "keywords": [
+      "conduit fill",
+      "raceway fill",
+      "40 percent",
+      "nipple"
+    ]
+  },
+  {
+    "id": "215.2",
+    "edition": 2023,
+    "section": "215.2(A)(1)",
+    "title": "Feeder conductor sizing and voltage drop guidance",
+    "summary": "Feeder conductors follow the same two-part sizing rule as branch circuits: at least the noncontinuous load plus 125% of the continuous load before correction, and at least the full load after correction and adjustment. The informational note repeats the 3% feeder and 5% combined voltage drop guidance, which is advisory.",
+    "related": [
+      "210.19",
+      "310.16"
+    ],
+    "calculators": [
+      "voltage-drop",
+      "ampacity"
+    ],
+    "keywords": [
+      "feeder",
+      "continuous load",
+      "voltage drop"
+    ]
+  },
+  {
+    "id": "chapter9.table4",
+    "edition": 2023,
+    "section": "Chapter 9, Table 4",
+    "title": "Raceway internal areas by type and trade size",
+    "summary": "Lists the internal cross-sectional area of each raceway type at each trade size, along with the 53%, 31%, 40% and 60% portions already worked out. The conduit fill calculator uses the 100% area and applies the Table 1 percentage.",
+    "related": [
+      "chapter9.table1",
+      "chapter9.table5"
+    ],
+    "calculators": [
+      "conduit-fill"
+    ],
+    "keywords": [
+      "EMT",
+      "RMC",
+      "PVC",
+      "conduit area",
+      "trade size"
+    ]
+  },
+  {
+    "id": "chapter9.table5",
+    "edition": 2023,
+    "section": "Chapter 9, Table 5",
+    "title": "Insulated conductor dimensions and areas",
+    "summary": "Gives the approximate diameter and cross-sectional area of each insulated conductor type and size. THHN, THWN and THWN-2 share one set of values; XHHW and XHHW-2 share another. Add the areas of all conductors in the raceway and compare against the allowed portion from Table 4.",
+    "related": [
+      "chapter9.table1",
+      "chapter9.table4"
+    ],
+    "calculators": [
+      "conduit-fill"
+    ],
+    "keywords": [
+      "THHN",
+      "XHHW",
+      "conductor area",
+      "wire diameter"
+    ]
+  }
+]
