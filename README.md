@@ -24,6 +24,13 @@ pnpm mobile        # expo start
 
 ## Status
 
-Phase 1 scaffold. Calculators: voltage drop, conductor ampacity and sizing,
-conduit fill. Numeric tables are marked unverified until checked against the
-adopted edition (see docs/data-verification.md).
+Phase 2. Nine offline calculators: voltage drop, conductor ampacity and
+sizing, conduit fill, box fill, motor circuits, dwelling load (optional
+method), grounding electrode and equipment grounding conductors,
+transformers, and power/current. Reference tab with searchable NEC 2023
+entries, article filters and a detail view. State picker that sets the NEC
+edition, persisted on device. Numeric tables and the adoption snapshot are
+marked unverified until checked against the adopted edition (see
+docs/data-verification.md).
+
+Not yet built: the AI assistant (Phase 3) and accounts/billing (Phase 4).

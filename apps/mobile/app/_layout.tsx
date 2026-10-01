@@ -18,6 +18,14 @@ export default function RootLayout() {
         <Stack.Screen name="calc/voltage-drop" options={{ title: "Voltage drop" }} />
         <Stack.Screen name="calc/ampacity" options={{ title: "Conductor sizing" }} />
         <Stack.Screen name="calc/conduit-fill" options={{ title: "Conduit fill" }} />
+        <Stack.Screen name="calc/box-fill" options={{ title: "Box fill" }} />
+        <Stack.Screen name="calc/motor" options={{ title: "Motor circuit" }} />
+        <Stack.Screen name="calc/dwelling-load" options={{ title: "Dwelling load" }} />
+        <Stack.Screen name="calc/grounding" options={{ title: "Grounding conductors" }} />
+        <Stack.Screen name="calc/transformer" options={{ title: "Transformer" }} />
+        <Stack.Screen name="calc/power" options={{ title: "Power and current" }} />
+        <Stack.Screen name="reference/[id]" options={{ title: "Reference" }} />
+        <Stack.Screen name="settings/jurisdiction" options={{ title: "Jurisdiction", presentation: "modal" }} />
       </Stack>
     </SettingsProvider>
   );

@@ -8,6 +8,12 @@ const CALCULATORS: { href: Href; title: string; blurb: string; icon: keyof typeo
   { href: "/calc/voltage-drop", title: "Voltage drop", blurb: "Drop in volts and percent, or the size that keeps you under 3%.", icon: "trending-down" },
   { href: "/calc/ampacity", title: "Conductor sizing", blurb: "Ampacity with ambient and bundling derating, termination limits, and the minimum size for a load.", icon: "resize" },
   { href: "/calc/conduit-fill", title: "Conduit fill", blurb: "Smallest EMT, RMC or PVC trade size for a set of conductors.", icon: "git-merge" },
+  { href: "/calc/box-fill", title: "Box fill", blurb: "Minimum box volume from conductors, clamps, devices and grounds.", icon: "cube" },
+  { href: "/calc/motor", title: "Motor circuit", blurb: "Table FLC, conductor ampacity, and the largest breaker or fuse allowed.", icon: "cog" },
+  { href: "/calc/dwelling-load", title: "Dwelling load", blurb: "Optional-method service calculation for a house.", icon: "home" },
+  { href: "/calc/grounding", title: "Grounding conductors", blurb: "Grounding electrode conductor and equipment ground sizes.", icon: "flash" },
+  { href: "/calc/transformer", title: "Transformer", blurb: "Primary and secondary current and overcurrent limits.", icon: "swap-vertical" },
+  { href: "/calc/power", title: "Power and current", blurb: "Volts, amps, watts, VA and power factor, single or three-phase.", icon: "pulse" },
 ];
 
 export default function CalculatorsScreen() {

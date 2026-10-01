@@ -36,3 +36,5 @@ export function validateAll(): string[] {
   }
   return problems;
 }
+
+export * from "./jurisdictions";
