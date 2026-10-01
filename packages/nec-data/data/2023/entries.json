@@ -190,5 +190,1599 @@
       "conductor area",
       "wire diameter"
     ]
+  },
+  {
+    "id": "90.2",
+    "edition": 2023,
+    "section": "90.2",
+    "title": "What the Code does and does not cover",
+    "summary": "Article 90 sets the boundaries of the Code. It applies to electrical installations in and around buildings, yards, parking lots, mobile homes, RVs, and floating buildings, from the service point to the last outlet. It does not reach utility-owned generation, transmission, and metering equipment, ships, railway rolling stock, or underground mines, which fall under other rules.",
+    "fieldNotes": [
+      "The service point is where utility rules stop and the NEC starts. The utility decides how the drop or lateral gets to that point; everything past it is yours and the inspector's.",
+      "Industrial sites with their own substations are still covered unless the utility owns and controls that gear."
+    ],
+    "related": [
+      "90.4",
+      "100.listed"
+    ],
+    "keywords": [
+      "scope",
+      "service point",
+      "utility",
+      "covered",
+      "not covered"
+    ]
+  },
+  {
+    "id": "90.4",
+    "edition": 2023,
+    "section": "90.4",
+    "title": "Who enforces and interprets the Code",
+    "summary": "The authority having jurisdiction, usually your electrical inspector, is the one who interprets the rules, approves equipment and methods, and signs off on the job. The AHJ can grant special permission for an alternate method that meets the same safety goal, and can allow older products to be used when a new edition demands something not yet on the market.",
+    "fieldNotes": [
+      "When two readings of a rule seem possible, the inspector's reading is the one that counts on that job. Ask before you rough in, not at final.",
+      "Special permission is supposed to be in writing. A verbal okay on site can evaporate when a different inspector shows up.",
+      "Local amendments ride on top of the NEC. Check the jurisdiction's adopted edition and its changes before bidding."
+    ],
+    "related": [
+      "90.2",
+      "100.listed",
+      "110.3"
+    ],
+    "keywords": [
+      "AHJ",
+      "inspector",
+      "enforcement",
+      "interpretation",
+      "special permission"
+    ]
+  },
+  {
+    "id": "100.grounding",
+    "edition": 2023,
+    "section": "Article 100",
+    "title": "Grounded, grounding, and bonding: the key terms",
+    "summary": "Grounded means connected to the earth, directly or through a conductive body that extends the earth connection. The grounded conductor is the circuit conductor that is intentionally grounded, which in most systems is the neutral. A grounding conductor carries fault current back to the source: the equipment grounding conductor ties metal enclosures to the neutral at the service, and the grounding electrode conductor ties the system to the electrode. Bonding means joining metal parts so they stay at the same potential and can carry fault current.",
+    "fieldNotes": [
+      "Grounded (the neutral, white) and grounding (the EGC, green or bare) are different conductors with different jobs. Mixing them up is the root of most neutral-to-ground violations.",
+      "In 2023 every definition in the Code was moved into Article 100, so terms that used to live in the .2 section of each article are now found here."
+    ],
+    "related": [
+      "100.listed",
+      "250.24",
+      "250.122",
+      "250.104"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "definitions",
+      "grounded conductor",
+      "equipment grounding conductor",
+      "bonding",
+      "neutral",
+      "EGC"
+    ]
+  },
+  {
+    "id": "100.listed",
+    "edition": 2023,
+    "section": "Article 100",
+    "title": "Readily accessible, listed, and AHJ defined",
+    "summary": "Readily accessible means a person can get to it quickly without climbing over or moving things, and without a ladder or tools; a locked door is allowed when the people who need access have the key. Plain accessible, for wiring methods, means not buried in the finished structure. Listed means a nationally recognized testing lab has evaluated the product to a standard and keeps it on a published list. The authority having jurisdiction is whoever enforces the Code in that place, usually the electrical inspector but sometimes a fire marshal or an owner's representative.",
+    "fieldNotes": [
+      "Disconnects, GFCI reset buttons, and emergency disconnects all have to be readily accessible. A breaker above a water heater you must climb on is a common failure.",
+      "A cover plate held by screws is still accessible; drywall over a box is not.",
+      "Listed is not the same as labeled or identified. Identified means the manufacturer says it is suitable for that specific use, usually in the instructions."
+    ],
+    "related": [
+      "100.grounding",
+      "110.3",
+      "90.4",
+      "314.29"
+    ],
+    "keywords": [
+      "definitions",
+      "readily accessible",
+      "accessible",
+      "listed",
+      "labeled",
+      "AHJ",
+      "NRTL"
+    ]
+  },
+  {
+    "id": "110.3",
+    "edition": 2023,
+    "section": "110.3(B)",
+    "title": "Install listed equipment the way the listing says",
+    "summary": "When equipment is listed or labeled, the instructions that come with that listing become enforceable. If the manufacturer says a breaker is only for a certain panel, a fitting is dry-location only, or a lug takes one conductor, the inspector can hold you to it. This is the section that turns the paper in the box into Code.",
+    "fieldNotes": [
+      "Mixing breaker brands in a panel fails here unless the breaker is classified for that panel. Check the panel label.",
+      "Torque values printed on the equipment are part of the instructions. Since 2017, 110.14(D) requires a torque tool when a value is given.",
+      "Outdoor-rated cable in a wet location still needs fittings that are listed for wet locations; the cable listing does not cover the connector."
+    ],
+    "related": [
+      "100.listed",
+      "110.14",
+      "90.4"
+    ],
+    "keywords": [
+      "listing",
+      "manufacturer instructions",
+      "labeled",
+      "torque",
+      "classified breaker"
+    ]
+  },
+  {
+    "id": "110.26",
+    "edition": 2023,
+    "section": "110.26",
+    "title": "Working space in front of electrical equipment",
+    "summary": "Equipment that may need work while energized needs clear space in front of it: at least 3 ft deep for systems up to 150 V to ground (more for higher voltages with grounded or live parts across from it), at least 30 in wide or the width of the equipment, and at least 6.5 ft high or the equipment height. Panelboards and switchboards also get a dedicated zone the width and depth of the equipment from the floor to 6 ft above the top, where no pipes, ducts, or other foreign systems may run. That space can never be used for storage.",
+    "fieldNotes": [
+      "The 30 in width does not have to be centered on the panel, but the door must be able to swing a full 90 degrees.",
+      "A panel in a closet, behind a water heater, or over a washer is the most common working-space call on residential finals.",
+      "Indoor service equipment, switchboards, panelboards, and motor control centers need lighting over the working space, and large gear 1200 A and over 6 ft wide needs an exit at each end."
+    ],
+    "related": [
+      "100.listed",
+      "408.4",
+      "440.14"
+    ],
+    "keywords": [
+      "working space",
+      "clearance",
+      "36 inches",
+      "30 inches",
+      "dedicated space",
+      "headroom"
+    ]
+  },
+  {
+    "id": "200.6",
+    "edition": 2023,
+    "section": "200.6",
+    "title": "How to identify the neutral (grounded) conductor",
+    "summary": "Grounded conductors 6 AWG and smaller must have a continuous white or gray finish along their whole length, or three continuous white or gray stripes on insulation that is not green. Conductors larger than 6 AWG can be re-identified at every termination with white or gray tape or paint that wraps all the way around. Where two systems share a raceway, each system's neutral needs a distinct marking so they cannot be mixed up.",
+    "fieldNotes": [
+      "White in a cable can be re-identified as a hot only under 200.7(C): it must be the supply to a switch, never the return from the switch to the light.",
+      "Gray is also a neutral color. Do not use gray for a hot leg even though it is not white.",
+      "Panel feeders in large conduit: tape the neutral at both ends before the inspector asks."
+    ],
+    "related": [
+      "100.grounding",
+      "250.24",
+      "404.2"
+    ],
+    "keywords": [
+      "neutral",
+      "white wire",
+      "gray",
+      "re-identify",
+      "grounded conductor",
+      "color code"
+    ]
+  },
+  {
+    "id": "210.8",
+    "edition": 2023,
+    "section": "210.8(A), 210.8(D)",
+    "title": "Where GFCI protection is required in dwellings",
+    "summary": "Receptacles in a dwelling that are 125 V through 250 V, 150 V or less to ground, and supplied by a single-phase circuit of 50 A or less need GFCI protection in bathrooms, garages and accessory buildings, outdoors, crawl spaces, unfinished basements, kitchens, areas with sinks, boathouses, laundry areas, and within 6 ft of bathtubs and showers. The 2023 edition made every receptacle in a kitchen a GFCI location, not just the ones serving the counter. Separately, 210.8(D) requires GFCI protection for the outlets that feed specific appliances such as dishwashers, ranges, cooktops, wall ovens, microwaves, clothes dryers, and sump pumps, whether cord-connected or hard-wired, when the circuit is 150 V or less to ground and 60 A or less.",
+    "fieldNotes": [
+      "Measure the 6 ft from the top inside edge of the sink bowl along the shortest path a cord would travel. A cabinet door does not block the measurement.",
+      "The GFCI device itself must be readily accessible; a GFCI receptacle hidden behind a refrigerator or dishwasher will get flagged. Use a breaker or a dead-front upstream instead.",
+      "The 2023 appliance list means a 240 V range or dryer circuit now typically needs a GFCI breaker. Check local amendments, since several jurisdictions have delayed this part."
+    ],
+    "related": [
+      "210.12",
+      "210.52(C)",
+      "406.4",
+      "100.listed"
+    ],
+    "keywords": [
+      "GFCI",
+      "ground fault",
+      "bathroom",
+      "kitchen",
+      "garage",
+      "outdoor",
+      "sink",
+      "dryer",
+      "range"
+    ]
+  },
+  {
+    "id": "210.12",
+    "edition": 2023,
+    "section": "210.12",
+    "title": "Arc-fault protection for living areas",
+    "summary": "In dwelling units, 120 V 15 A and 20 A branch circuits that supply outlets or devices in kitchens, family rooms, dining rooms, living rooms, bedrooms, dens, sunrooms, closets, hallways, laundry areas, and similar rooms must have AFCI protection. Dormitory units, hotel guest rooms, and patient sleeping rooms in nursing homes have their own AFCI requirements in later subsections. Protection can come from a combination-type breaker, or from an outlet-branch-circuit AFCI receptacle when the home run is protected or run in metal.",
+    "fieldNotes": [
+      "Bathrooms, garages, and unfinished basements are the usual rooms that do not need AFCI, but a laundry area does even if it is in the basement.",
+      "When you extend or add to an existing circuit in an AFCI area, the modified circuit needs AFCI unless the extension is under 6 ft and adds no outlets.",
+      "Shared-neutral multiwire circuits need a two-pole AFCI breaker; a pair of single-pole units will nuisance trip."
+    ],
+    "related": [
+      "210.8",
+      "210.11",
+      "406.4"
+    ],
+    "keywords": [
+      "AFCI",
+      "arc fault",
+      "bedroom",
+      "living room",
+      "combination type",
+      "nuisance trip"
+    ]
+  },
+  {
+    "id": "210.11",
+    "edition": 2023,
+    "section": "210.11(C)",
+    "title": "Required dwelling circuits: kitchen, laundry, bath, garage",
+    "summary": "Every dwelling unit needs at least two 20 A small-appliance circuits for the kitchen, pantry, and dining receptacles; at least one 20 A circuit for the laundry receptacles; at least one 20 A circuit for bathroom receptacles; and at least one 20 A, 120 V circuit for receptacles in an attached garage. These circuits are dedicated: the laundry and garage circuits may not feed other rooms, and the bathroom circuit may feed only bathroom receptacles unless it serves a single bathroom, in which case it may also pick up the lights and fan in that same bathroom.",
+    "fieldNotes": [
+      "The kitchen refrigerator may be on one of the two small-appliance circuits or on its own 15 A or larger individual circuit.",
+      "Range hoods, disposals, and dishwashers are not small-appliance loads; they need their own circuits or share by their own rules.",
+      "The garage circuit may also feed readily accessible outdoor receptacles, but nothing else."
+    ],
+    "related": [
+      "210.52(C)",
+      "210.52",
+      "210.8",
+      "220.40"
+    ],
+    "calculators": [
+      "dwelling-load"
+    ],
+    "keywords": [
+      "small appliance circuit",
+      "laundry circuit",
+      "bathroom circuit",
+      "garage circuit",
+      "20 amp",
+      "required circuits"
+    ]
+  },
+  {
+    "id": "210.52",
+    "edition": 2023,
+    "section": "210.52(A)",
+    "title": "Wall receptacle spacing in living areas",
+    "summary": "In kitchens, living rooms, bedrooms, and other habitable rooms, no point along the floor line of a wall may be more than 6 ft from a receptacle, and any wall space 2 ft or wider gets at least one. Fixed glass panels and the fixed section of a sliding door count as wall; doorways, fireplaces, and similar openings do not. Receptacles must be within 5.5 ft of the floor, and floor receptacles count only when they are within 18 in of the wall.",
+    "fieldNotes": [
+      "Think of it as a lamp with a 6 ft cord reaching from anywhere along the wall. Measure around corners, not through them.",
+      "Receptacles in baseboard heaters, when the heater manufacturer provides them, can count toward spacing; receptacles above a heater are not allowed by the heater listing.",
+      "Switch-controlled receptacles that take the place of a lighting outlet do not count toward the spacing requirement."
+    ],
+    "related": [
+      "210.52(C)",
+      "210.70",
+      "406.12",
+      "210.11"
+    ],
+    "keywords": [
+      "receptacle spacing",
+      "6 foot rule",
+      "12 foot rule",
+      "wall space",
+      "habitable room",
+      "outlet"
+    ]
+  },
+  {
+    "id": "210.52(C)",
+    "edition": 2023,
+    "section": "210.52(C)",
+    "title": "Kitchen countertop and island receptacles",
+    "summary": "Along a kitchen wall countertop, every counter section 12 in or wider needs a receptacle, and no point along the wall line may be more than 24 in from one. Receptacles must be above the counter, no more than 20 in up. For islands and peninsulas, the 2023 edition no longer requires a receptacle, but it does require that provision be made for one, such as a box and raceway stubbed to the island, and any receptacle that is installed must be on or above the counter surface, not below it.",
+    "fieldNotes": [
+      "The 2023 change removed the old allowance for a receptacle on the island side wall below the counter. Cords hanging over the edge were tipping appliances onto kids.",
+      "Behind a range, cooktop, or sink less than 12 in deep the counter space is broken; measure each side separately.",
+      "Pop-up and listed countertop receptacles are the clean way to serve an island now."
+    ],
+    "related": [
+      "210.52",
+      "210.8",
+      "210.11",
+      "406.12"
+    ],
+    "keywords": [
+      "countertop",
+      "island",
+      "peninsula",
+      "kitchen receptacle",
+      "24 inches",
+      "pop-up receptacle"
+    ]
+  },
+  {
+    "id": "210.70",
+    "edition": 2023,
+    "section": "210.70(A)",
+    "title": "Required lighting outlets in dwellings",
+    "summary": "Every habitable room, kitchen, and bathroom needs at least one lighting outlet controlled by a wall switch or a listed control. In rooms other than kitchens and bathrooms, a switched receptacle can stand in for the light. Hallways, stairways, attached garages, detached garages with power, and each outdoor entrance at grade level also need a switched lighting outlet, and interior stairs with six or more risers need a switch at each floor level. Attics, crawl spaces, and basements that hold equipment needing service need a light with a switch at the entrance.",
+    "fieldNotes": [
+      "Occupancy sensors and dimmers are fine as the control as long as there is a manual way to turn the light on or they have a wall switch with them.",
+      "A garage opener light or a porch light on a photocell does not satisfy the switch requirement by itself.",
+      "Outdoor entrances to a garage count as entrances if they open onto grade."
+    ],
+    "related": [
+      "210.52",
+      "404.2",
+      "410.16"
+    ],
+    "keywords": [
+      "lighting outlet",
+      "wall switch",
+      "stairway",
+      "hallway",
+      "switched receptacle",
+      "attic light"
+    ]
+  },
+  {
+    "id": "220.40",
+    "edition": 2023,
+    "section": "220.40",
+    "title": "Standard load calculation: how the pieces add up",
+    "summary": "The standard method totals the branch-circuit loads from Part II of Article 220, then trims them with the demand factors in Part III. For a dwelling that means general lighting at 3 VA per square foot, 1500 VA for each small-appliance and laundry circuit, nameplate of fastened appliances with a 75% factor when there are four or more, the range from the range table, the dryer at 5000 VA or nameplate, the larger of heating or cooling, and 25% of the largest motor. The result sized to the service or feeder is the computed load.",
+    "fieldNotes": [
+      "Square footage is outside dimensions, and excludes open porches, garages, and spaces not adaptable for future use.",
+      "The neutral load in 220.61 can be reduced: 70% of the range and dryer loads, and 70% of any balanced load over 200 A.",
+      "In 2023 the dwelling general lighting figure lives in 220.41, separate from the non-dwelling table in 220.12."
+    ],
+    "related": [
+      "220.42",
+      "220.82",
+      "210.11",
+      "230.42"
+    ],
+    "calculators": [
+      "dwelling-load"
+    ],
+    "keywords": [
+      "load calculation",
+      "standard method",
+      "demand factor",
+      "3 VA",
+      "service size",
+      "computed load"
+    ]
+  },
+  {
+    "id": "220.42",
+    "edition": 2023,
+    "section": "220.42",
+    "title": "Lighting demand factors by occupancy",
+    "summary": "General lighting load does not all have to be counted at 100%. For dwelling units, the first 3000 VA counts in full, the next portion up to 120,000 VA counts at 35%, and anything beyond counts at 25%. Hospitals, hotels and motels, and warehouses have their own reduced factors. Every other occupancy counts lighting at 100%, and any lighting that runs continuously in a hospital, hotel, or motel must be counted at 100% too.",
+    "fieldNotes": [
+      "The dwelling demand table includes the general-use receptacles and the small-appliance and laundry circuits in the same pot before the factor is applied.",
+      "Do not apply this table to show-window, track, or sign lighting; those have their own loads in Part II.",
+      "Non-dwelling lighting now comes from Table 220.12 using VA per square foot by occupancy, with an allowance for energy-code compliant designs."
+    ],
+    "related": [
+      "220.40",
+      "220.82"
+    ],
+    "calculators": [
+      "dwelling-load"
+    ],
+    "keywords": [
+      "lighting demand",
+      "35 percent",
+      "3000 VA",
+      "general lighting",
+      "demand factor"
+    ]
+  },
+  {
+    "id": "220.82",
+    "edition": 2023,
+    "section": "220.82",
+    "title": "Optional method for a single dwelling unit",
+    "summary": "For a dwelling served at 120/240 V or 208Y/120 V with a service of at least 100 A, the optional method is quicker and usually gives a smaller answer. Add up the general load: 3 VA per square foot, 1500 VA for each small-appliance and laundry circuit, and the nameplate of every fastened appliance, range, oven, dryer, and water heater. Take the first 10 kVA at 100% and the rest at 40%. Then add the largest of the heating or cooling options: air conditioning at 100%, a heat pump with its supplemental heat, or electric space heating at 65% for fewer than four separately controlled units or 40% for four or more.",
+    "fieldNotes": [
+      "Motors other than the air conditioner are already covered in the 40% pot; you do not add 25% of the largest motor as in the standard method.",
+      "The neutral still has to be sized by the standard rules in 220.61 even when the ungrounded conductors come from the optional method.",
+      "Two dwelling units on one service have their own optional method in 220.84, not this one."
+    ],
+    "related": [
+      "220.40",
+      "220.42",
+      "230.42",
+      "230.79"
+    ],
+    "calculators": [
+      "dwelling-load"
+    ],
+    "keywords": [
+      "optional method",
+      "10 kVA",
+      "40 percent",
+      "dwelling load",
+      "heat pump",
+      "service calculation"
+    ]
+  },
+  {
+    "id": "230.42",
+    "edition": 2023,
+    "section": "230.42",
+    "title": "Sizing service-entrance conductors",
+    "summary": "Service-entrance conductors need an ampacity of at least the noncontinuous load plus 125% of the continuous load, and in any case not less than the computed load from Article 220. They also may not be smaller than what the service disconnect rating in 230.79 requires. The grounded conductor is sized separately by the rules in 250.24.",
+    "fieldNotes": [
+      "For a single dwelling unit's main service or feeder of 100 A through 400 A, 310.12 lets you size the conductors at 83% of the service rating. A 200 A service works out to 166 A, which is 2/0 copper or 4/0 aluminum at 75 C.",
+      "The 83% allowance only applies to the conductors feeding the whole dwelling unit, not to a subpanel that carries part of the load.",
+      "Service conductors have no overcurrent protection ahead of them, so there is no next-size-up relief; the conductor has to carry the computed load."
+    ],
+    "related": [
+      "230.79",
+      "220.40",
+      "220.82",
+      "310.16",
+      "250.24"
+    ],
+    "calculators": [
+      "ampacity",
+      "dwelling-load"
+    ],
+    "keywords": [
+      "service conductors",
+      "service entrance",
+      "83 percent",
+      "310.12",
+      "200 amp service"
+    ]
+  },
+  {
+    "id": "230.79",
+    "edition": 2023,
+    "section": "230.79",
+    "title": "Minimum rating of the service disconnect",
+    "summary": "The service disconnect must be rated for the computed load and in no case smaller than a few floor values: 15 A where it supplies a single branch circuit, 30 A where it supplies no more than two 2-wire branch circuits, 100 A for a one-family dwelling, and 60 A for everything else. These minimums are about having enough capacity for the future, not just today's load.",
+    "fieldNotes": [
+      "A detached shop or barn with its own service is not a one-family dwelling, so a 60 A disconnect is legal there.",
+      "The disconnect rating sets the minimum conductor size through 230.42, and the grounded conductor and GEC follow from the conductor size."
+    ],
+    "related": [
+      "230.42",
+      "230.85",
+      "220.82"
+    ],
+    "keywords": [
+      "service disconnect",
+      "100 amp minimum",
+      "60 amp",
+      "main breaker",
+      "disconnect rating"
+    ]
+  },
+  {
+    "id": "230.85",
+    "edition": 2023,
+    "section": "230.85",
+    "title": "Outdoor emergency disconnect for houses",
+    "summary": "One- and two-family dwellings need a disconnect outdoors, in a readily accessible spot, that first responders can use to kill power before entering. It can be the service disconnect itself, a meter disconnect with overcurrent protection, or a listed disconnect switch ahead of the service equipment, and it must be marked as the emergency disconnect so no one has to guess. Where the disconnect also opens the service it is marked as both.",
+    "fieldNotes": [
+      "This went into effect with the 2020 edition and is one of the most-missed items on service upgrades. A panel in the basement alone no longer passes.",
+      "If the emergency disconnect is not also the service disconnect, the conductors from it to the inside panel are feeders, and the inside panel needs separate neutrals and grounds.",
+      "Replacing an existing service is a trigger; a simple panel changeover inside with no service work is generally not."
+    ],
+    "related": [
+      "230.79",
+      "100.listed",
+      "250.24"
+    ],
+    "keywords": [
+      "emergency disconnect",
+      "first responder",
+      "outdoor disconnect",
+      "meter main",
+      "service upgrade"
+    ]
+  },
+  {
+    "id": "240.4(B)",
+    "edition": 2023,
+    "section": "240.4(B)",
+    "title": "Rounding up to the next standard breaker size",
+    "summary": "When a conductor's ampacity after correction and adjustment does not land on a standard overcurrent rating, you may use the next standard size up, as long as the device is 800 A or less and the circuit is not a multi-outlet branch circuit feeding cord-and-plug receptacles. Above 800 A, or for those general-purpose receptacle circuits, the device must be rated at or below the conductor ampacity.",
+    "fieldNotes": [
+      "This is why 3 AWG copper THHN at 75 C (100 A) can sit on a 100 A breaker, and why 1 AWG (130 A) can go on a 150 A breaker.",
+      "The small-conductor caps in 240.4(D) still win for 14, 12, and 10 AWG: you cannot round a derated 12 AWG up to 25 A on a receptacle circuit.",
+      "Rounding up applies to the overcurrent device, not to the load. The computed load still has to be within the conductor ampacity."
+    ],
+    "related": [
+      "240.4",
+      "240.6",
+      "310.16",
+      "310.15"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "next size up",
+      "standard rating",
+      "800 amps",
+      "breaker sizing",
+      "overcurrent"
+    ]
+  },
+  {
+    "id": "240.6",
+    "edition": 2023,
+    "section": "240.6",
+    "title": "Standard fuse and breaker ratings",
+    "summary": "The standard ampere ratings are 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600, 700, 800, 1000, 1200, 1600, 2000, 2500, 3000, 4000, 5000, and 6000 A. Fuses add 1, 3, 6, 10, and 601 A to that list. Devices with adjustable trips count as their maximum setting unless the adjustment is behind a cover, locked, or password protected, in which case the set value is the rating.",
+    "fieldNotes": [
+      "Nonstandard ratings are allowed to exist; they just do not get the next-size-up allowance in 240.4(B) the same way.",
+      "The 601 A fuse rating matters for the 800 A boundary in tap and round-up rules; Class L fuses start there."
+    ],
+    "related": [
+      "240.4(B)",
+      "240.4",
+      "430.52"
+    ],
+    "calculators": [
+      "ampacity"
+    ],
+    "keywords": [
+      "standard ratings",
+      "breaker sizes",
+      "fuse sizes",
+      "adjustable trip",
+      "ampere rating"
+    ]
+  },
+  {
+    "id": "240.21",
+    "edition": 2023,
+    "section": "240.21(B), 240.21(C)",
+    "title": "Tap rules: protecting conductors downstream of the breaker",
+    "summary": "Normally the overcurrent device sits where a conductor gets its supply. Taps are the exception: a smaller conductor can leave a larger feeder without its own protection at the splice if it meets one of the tap rules. The 10 ft rule allows a tap whose ampacity is at least the load and at least the rating of the device it lands on, and at least one-tenth of the upstream device if it leaves the enclosure. The 25 ft rule allows a tap of at least one-third the upstream device rating that ends in a single overcurrent device. Transformer secondaries have their own set of similar rules in 240.21(C).",
+    "fieldNotes": [
+      "A tap cannot feed another tap. Every tap has to end at an overcurrent device.",
+      "Tap length is measured along the conductor, including the wire inside the gutter or wireway, not just the distance between enclosures.",
+      "Secondary conductors from a transformer are never protected by the primary breaker alone on a 3-wire or 4-wire system; the 240.21(C) length and ampacity rules apply."
+    ],
+    "related": [
+      "240.6",
+      "450.3",
+      "215.2",
+      "310.16"
+    ],
+    "calculators": [
+      "transformer",
+      "ampacity"
+    ],
+    "keywords": [
+      "tap rule",
+      "10 foot tap",
+      "25 foot tap",
+      "feeder tap",
+      "transformer secondary",
+      "one-third"
+    ]
+  },
+  {
+    "id": "250.24",
+    "edition": 2023,
+    "section": "250.24",
+    "title": "Grounding and bonding at the service",
+    "summary": "At the service, the grounded (neutral) conductor is connected to the grounding electrode system and to the service enclosure through the main bonding jumper. That one connection is the only place on the premises where neutral and ground meet; downstream, in subpanels and equipment, they stay separate. The utility's grounded conductor must be brought to every service disconnect even when no load uses a neutral, because it is the fault-return path, and it is sized from Table 250.102(C)(1) based on the ungrounded conductors.",
+    "fieldNotes": [
+      "A subpanel in the same building with a bonded neutral is the classic violation here; pull the green screw or strap.",
+      "For a 200 A dwelling service with 2/0 copper, the neutral may be reduced but not below 4 AWG copper per the bonding jumper table, and it must still carry the computed neutral load.",
+      "The GEC can land anywhere from the load end of the service drop to the neutral bar in the disconnect, including the meter base where the utility allows it."
+    ],
+    "related": [
+      "250.50",
+      "250.66",
+      "250.64",
+      "100.grounding",
+      "230.42"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "service grounding",
+      "main bonding jumper",
+      "neutral bond",
+      "grounded conductor",
+      "subpanel",
+      "separate neutrals"
+    ]
+  },
+  {
+    "id": "250.50",
+    "edition": 2023,
+    "section": "250.50",
+    "title": "Use every electrode that exists at the building",
+    "summary": "All the grounding electrodes described in 250.52 that are present at a building must be bonded together into one grounding electrode system. You do not get to pick one; if there is a metal water pipe, structural steel in the earth, and rebar in the footing, all three are part of the system. Where none exist, you install one or more of the made electrodes such as rods, plates, or a ground ring.",
+    "fieldNotes": [
+      "On new construction the concrete-encased electrode is almost always present. Have the footing contractor stub up a piece of rebar or a 4 AWG copper tail before the pour so you are not cutting concrete later.",
+      "The exception for existing buildings only applies when the rebar is already buried in finished concrete and cannot be reached without breaking it."
+    ],
+    "related": [
+      "250.52",
+      "250.53",
+      "250.66",
+      "250.24"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "grounding electrode system",
+      "ufer",
+      "concrete encased",
+      "rebar",
+      "bond together"
+    ]
+  },
+  {
+    "id": "250.52",
+    "edition": 2023,
+    "section": "250.52",
+    "title": "What counts as a grounding electrode",
+    "summary": "The recognized electrodes are a metal underground water pipe with at least 10 ft in contact with earth, the building's metal frame when it is effectively grounded, a concrete-encased electrode of at least 20 ft of 1/2 in rebar or 4 AWG bare copper in a footing in contact with earth, a ground ring of at least 20 ft of 2 AWG bare copper buried around the building, rods or pipes at least 8 ft long, plates with at least 2 square feet of surface, and other listed electrodes. A water pipe can never be the only electrode; it must be backed up by another type. Underground metal gas piping and aluminum are specifically not allowed as electrodes.",
+    "fieldNotes": [
+      "Plastic water service means no water pipe electrode, even if the interior piping is copper. The interior pipe still gets bonded under 250.104.",
+      "Rods must be at least 5/8 in unless listed; listed 1/2 in rods are common and fine.",
+      "The water meter and any filters are not reliable conductors; jumper around them so the electrode connection stays continuous."
+    ],
+    "related": [
+      "250.50",
+      "250.53",
+      "250.104",
+      "250.66"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "ground rod",
+      "water pipe electrode",
+      "concrete encased electrode",
+      "ground ring",
+      "plate electrode",
+      "building steel"
+    ]
+  },
+  {
+    "id": "250.53",
+    "edition": 2023,
+    "section": "250.53",
+    "title": "Installing rods, pipes, and plates",
+    "summary": "A rod or pipe electrode must have at least 8 ft in contact with the earth. Drive it straight down; if you hit rock, you may drive it at up to 45 degrees or lay it in a trench at least 30 in deep. A single rod, pipe, or plate must be supplemented by a second electrode unless you can show it measures 25 ohms or less, and the two must be at least 6 ft apart. The top of the rod should be flush with or below grade unless the rod and clamp are protected from damage.",
+    "fieldNotes": [
+      "Almost nobody carries a ground resistance tester, so plan on two rods. Inspectors will accept two rods without a test.",
+      "The clamp must be listed for direct burial if it ends up below grade. The cheap acorn clamp usually is; check the marking.",
+      "When the water pipe is the electrode, the supplemental rod or other electrode is bonded to the GEC, to the water pipe within 5 ft of entry, or to the service enclosure."
+    ],
+    "related": [
+      "250.52",
+      "250.50",
+      "250.66",
+      "250.64"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "ground rod",
+      "25 ohms",
+      "two rods",
+      "6 feet apart",
+      "supplemental electrode",
+      "8 foot rod"
+    ]
+  },
+  {
+    "id": "250.64",
+    "edition": 2023,
+    "section": "250.64",
+    "title": "Running the grounding electrode conductor",
+    "summary": "The GEC runs in one continuous length from the service to the electrode, spliced only with irreversible compression connectors listed for grounding or by exothermic welding. Conductors 6 AWG and smaller need protection in a raceway or cable armor unless they follow the building surface closely and are not exposed to damage; 4 AWG and larger need protection only where exposed to damage. Aluminum GECs cannot be in contact with masonry or earth and must stop at least 18 in above grade. If a ferrous metal raceway encloses the GEC, it must be bonded to the GEC at both ends.",
+    "fieldNotes": [
+      "A GEC in steel conduit that is not bonded at both ends acts as a choke and can cut the effectiveness of the electrode by a lot. Use PVC or bond both ends.",
+      "Running the GEC through the bottom of the meter can and out to the rod is fine where the utility allows it; keep it one piece.",
+      "With several service disconnects you can run one common GEC and tap each disconnect to it, sizing the common conductor for the largest service conductor set."
+    ],
+    "related": [
+      "250.66",
+      "250.24",
+      "250.53",
+      "250.52"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "grounding electrode conductor",
+      "GEC",
+      "continuous",
+      "irreversible splice",
+      "protection",
+      "ferrous raceway"
+    ]
+  },
+  {
+    "id": "250.66",
+    "edition": 2023,
+    "section": "250.66",
+    "title": "Sizing the grounding electrode conductor",
+    "summary": "The GEC is sized from Table 250.66 based on the largest ungrounded service-entrance conductor, or the equivalent area when conductors are paralleled. Copper GECs step from 8 AWG for services with 2 AWG or smaller conductors, to 6 AWG for 1 and 1/0, 4 AWG for 2/0 and 3/0, 2 AWG up through 350 kcmil, and up to 3/0 for the largest services. The table has caps: a GEC that runs only to a rod, pipe, or plate never needs to be larger than 6 AWG copper, one that runs only to a concrete-encased electrode never larger than 4 AWG copper, and one to a ground ring never larger than the ring itself.",
+    "fieldNotes": [
+      "A typical 200 A house service with 2/0 copper or 4/0 aluminum calls for a 4 AWG copper GEC to the water pipe, and 6 AWG is enough for the run to the rods.",
+      "The bonding jumper between electrodes is sized the same way the GEC to that electrode would be.",
+      "The GEC is sized to the service conductors, not to the overcurrent device, so a 200 A breaker fed by oversized conductors may call for a bigger GEC."
+    ],
+    "related": [
+      "250.64",
+      "250.50",
+      "250.52",
+      "250.53",
+      "250.24"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "GEC size",
+      "Table 250.66",
+      "6 AWG",
+      "4 AWG",
+      "ground rod wire size"
+    ]
+  },
+  {
+    "id": "250.104",
+    "edition": 2023,
+    "section": "250.104",
+    "title": "Bonding metal water and gas piping",
+    "summary": "Metal water piping in or on a building must be bonded to the service enclosure, the grounded conductor at the service, the GEC, or the electrode, with a jumper sized from Table 250.102(C)(1) based on the service conductors. Other metal piping that could become energized, including gas piping, must be bonded too, but that jumper is sized from Table 250.122 based on the circuit most likely to energize the pipe, and the equipment grounding conductor of that circuit is allowed to serve as the bond. Structural metal that is not already an electrode gets bonded the same way as water piping.",
+    "fieldNotes": [
+      "Gas piping is usually bonded by the EGC of the furnace or water heater circuit, so a separate clamp is often not needed. CSST, however, often requires a dedicated bond under the manufacturer's instructions.",
+      "Buildings fed by a feeder bond their water piping to the equipment grounding bar in the building disconnect, sized from 250.122 instead of the service table.",
+      "The jumper to the water pipe must be accessible, and a water meter or plastic section needs jumpering so the whole system stays bonded."
+    ],
+    "related": [
+      "250.52",
+      "250.122",
+      "250.24",
+      "100.grounding"
+    ],
+    "calculators": [
+      "grounding"
+    ],
+    "keywords": [
+      "bonding",
+      "water pipe",
+      "gas pipe",
+      "CSST",
+      "bonding jumper",
+      "metal piping"
+    ]
+  },
+  {
+    "id": "250.122",
+    "edition": 2023,
+    "section": "250.122",
+    "title": "Sizing equipment grounding conductors",
+    "summary": "Wire-type equipment grounding conductors are sized from Table 250.122 by the rating of the overcurrent device ahead of them: 14 AWG copper for 15 A, 12 for 20 A, 10 for 30 through 60 A, 8 for 70 through 100 A, 6 for 110 through 200 A, 4 for 225 through 300 A, and so on. When the ungrounded conductors are made larger than ampacity requires, for example for voltage drop, the EGC must grow by the same proportion of circular-mil area. The EGC never has to be larger than the circuit conductors themselves.",
+    "fieldNotes": [
+      "Since 2023 the proportional upsizing applies when conductors are enlarged for reasons other than ambient or bundling adjustment, so a derating upsize does not drag the EGC up with it, but a voltage-drop upsize does.",
+      "With parallel conductors in separate raceways, each raceway gets a full-size EGC based on the overcurrent device, not a split share.",
+      "Metal raceways listed as EGCs such as EMT and RMC satisfy this with no wire at all, but most spec jobs still pull a green."
+    ],
+    "related": [
+      "250.104",
+      "310.10",
+      "210.19",
+      "100.grounding"
+    ],
+    "calculators": [
+      "grounding",
+      "voltage-drop"
+    ],
+    "keywords": [
+      "EGC size",
+      "Table 250.122",
+      "equipment ground",
+      "green wire",
+      "proportional increase",
+      "voltage drop upsizing"
+    ]
+  },
+  {
+    "id": "300.4",
+    "edition": 2023,
+    "section": "300.4",
+    "title": "Protecting cables and raceways from nails and damage",
+    "summary": "Where cables or nonmetallic raceways pass through or run along wood framing, they must be kept at least 1-1/4 in from the nearest edge of the member or be shielded by a steel plate at least 1/16 in thick. Through metal framing, NM and similar cables need listed bushings or grommets at every hole. Cables under metal-corrugated roof decking must stay at least 1-1/2 in below the deck. Where 4 AWG or larger conductors enter an enclosure from a raceway, an insulated fitting or bushing is required to protect the insulation.",
+    "fieldNotes": [
+      "The 1-1/4 in applies to furring strips and to cables run parallel to studs and joists, not just through holes. Nail plates are cheap; use them.",
+      "Plastic grommets in steel studs are required for NM cable; the plastic bushing that snaps into a knockout is not the same thing.",
+      "Attic runs near the scuttle hole and across the top of joists are covered by the cable article, 334.23 and 320.23, in addition to this section."
+    ],
+    "related": [
+      "334.10",
+      "334.30",
+      "300.5",
+      "300.14"
+    ],
+    "keywords": [
+      "nail plate",
+      "1-1/4 inch",
+      "physical damage",
+      "bored hole",
+      "grommet",
+      "roof deck"
+    ]
+  },
+  {
+    "id": "300.5",
+    "edition": 2023,
+    "section": "300.5",
+    "title": "Underground burial depths and protection",
+    "summary": "Table 300.5(A) sets minimum cover from the top of the wiring to finished grade: 24 in for direct-burial cable, 18 in for PVC and other listed nonmetallic raceways, and 6 in for rigid metal and intermediate metal conduit. Residential 120 V, 20 A or smaller GFCI-protected branch circuits may be at 12 in, and landscape lighting at 30 V or less in UF or listed cable at 6 in. Under one- and two-family driveways everything may be at 18 in, and under public roads 24 in. Conductors coming up out of the ground must be protected in a raceway to at least 8 ft above grade, and raceways that enter a building must be sealed against moisture.",
+    "fieldNotes": [
+      "Under a building, direct-burial cable is not allowed; it must be in a raceway from the point it goes under the slab.",
+      "Underground service conductors that are not in a raceway or encased in concrete need a warning ribbon at least 12 in above them in the trench.",
+      "Splices underground are allowed only with methods listed for direct burial, and cable runs need to be shielded at the bottom of the trench where rock could cut them."
+    ],
+    "related": [
+      "300.4",
+      "334.12",
+      "358",
+      "210.8"
+    ],
+    "keywords": [
+      "burial depth",
+      "24 inches",
+      "18 inches",
+      "direct burial",
+      "UF cable",
+      "underground",
+      "trench"
+    ]
+  },
+  {
+    "id": "300.14",
+    "edition": 2023,
+    "section": "300.14",
+    "title": "Six inches of free conductor at every box",
+    "summary": "At every outlet, junction, and switch point you must leave at least 6 in of free conductor, measured from where the conductor leaves its cable sheath or raceway inside the box. When the box opening is smaller than 8 in in any dimension, each conductor must also be long enough to reach at least 3 in outside the opening. Conductors that simply pass through the box without a splice are exempt.",
+    "fieldNotes": [
+      "Measure from the end of the sheath, not from the back of the box. A cable clamped tight at the knockout with 6 in of wire inside a deep box can still be short.",
+      "Short conductors are a top rough-in call because they force splices later. Leave 8 in and nobody argues."
+    ],
+    "related": [
+      "314.16",
+      "334.30",
+      "300.4"
+    ],
+    "keywords": [
+      "free conductor",
+      "6 inches",
+      "3 inches",
+      "pigtail length",
+      "box wiring"
+    ]
+  },
+  {
+    "id": "310.10",
+    "edition": 2023,
+    "section": "310.10(G)",
+    "title": "Running conductors in parallel",
+    "summary": "Conductors 1/0 AWG and larger may be connected in parallel to share the load of one phase, neutral, or grounded conductor. Every conductor in the set must be the same length, the same material, the same size and insulation type, and terminated the same way, so the current divides evenly. When the sets are in separate raceways or cables, each raceway must have the same number of conductors and the same physical characteristics, and each raceway gets its own full-size equipment grounding conductor.",
+    "fieldNotes": [
+      "Mismatched lengths put more current on the shorter conductor and can overheat it even though the total is within ampacity.",
+      "Bundling adjustment still applies when all the parallel conductors share one raceway; count every current-carrying conductor.",
+      "Smaller than 1/0 is allowed only in a few special cases such as control circuits and under engineering supervision in industrial facilities."
+    ],
+    "related": [
+      "310.16",
+      "310.15",
+      "250.122",
+      "chapter9.table8"
+    ],
+    "calculators": [
+      "ampacity",
+      "voltage-drop"
+    ],
+    "keywords": [
+      "parallel conductors",
+      "1/0 AWG",
+      "same length",
+      "paralleled",
+      "large feeders"
+    ]
+  },
+  {
+    "id": "312.6",
+    "edition": 2023,
+    "section": "312.6",
+    "title": "Wire bending space at terminals",
+    "summary": "Cabinets and enclosures must give conductors enough room to bend from the terminal without stressing the insulation. Table 312.6(A) gives the minimum space when the conductor leaves the terminal sideways, parallel to the wall it enters, and Table 312.6(B) gives roughly double the space when the conductor enters the wall directly opposite its terminal and has to make a full U-bend. Both tables grow with conductor size and with the number of conductors landing on each terminal.",
+    "fieldNotes": [
+      "This is why a bottom-fed panel with the main lugs at the bottom often needs a deeper or taller can than the same panel top-fed.",
+      "Factory-built panels and meter sockets are already designed around these tables; the issue comes up in custom gutters, troughs, and field-built disconnect enclosures.",
+      "Measure from the end of the lug in the direction the wire leaves, to the wall or the nearest obstruction."
+    ],
+    "related": [
+      "110.26",
+      "314.16",
+      "408.4"
+    ],
+    "keywords": [
+      "bending space",
+      "gutter space",
+      "terminal",
+      "cabinet",
+      "Table 312.6"
+    ]
+  },
+  {
+    "id": "314.16",
+    "edition": 2023,
+    "section": "314.16",
+    "title": "Box fill: how many conductors fit in a box",
+    "summary": "A box must have enough cubic-inch volume for everything inside it. Each conductor counts as a volume based on its size: 2.0 cu in for 14 AWG, 2.25 for 12 AWG, 2.5 for 10 AWG, 3.0 for 8 AWG, and 5.0 for 6 AWG. Every conductor that enters and is spliced or terminated counts once; a loop that passes through unbroken and is 12 in or longer counts twice. All the equipment grounding conductors together count once, plus one more for every additional four beyond the first four. Internal cable clamps count once, each fixture stud or hickey once, and each device yoke counts twice, all at the size of the largest conductor present.",
+    "fieldNotes": [
+      "Pigtails that start and end inside the box, and equipment bonding jumpers, do not count toward fill.",
+      "The marked volume on a plastic box is what you get. For a metal box with a plaster ring or extension, add the marked volume of each piece.",
+      "A device box with three 12 AWG cables, a receptacle, and internal clamps needs about 22.5 cu in, which rules out the common 18 cu in single-gang."
+    ],
+    "related": [
+      "300.14",
+      "314.23",
+      "314.29",
+      "334.30"
+    ],
+    "calculators": [
+      "box-fill"
+    ],
+    "keywords": [
+      "box fill",
+      "cubic inches",
+      "conductor count",
+      "device yoke",
+      "volume allowance",
+      "junction box"
+    ]
+  },
+  {
+    "id": "314.23",
+    "edition": 2023,
+    "section": "314.23",
+    "title": "Supporting boxes and conduit bodies",
+    "summary": "Every box must be rigidly and securely fastened. Boxes mounted to framing can use nails or screws through the box as long as the nails stay within 1/4 in of the back or ends. Boxes supported only by raceway need at least two conduits threaded wrench-tight into the box or hubs, each secured within 18 in of the box, and for boxes holding a luminaire or device the raceways and fittings must be rated for the job. Listed brackets, bar hangers, and suspended-ceiling supports are allowed when installed per their listing.",
+    "fieldNotes": [
+      "A single EMT run with a set-screw connector is not a box support. Add an independent strap, bracket, or a second raceway.",
+      "Conduit bodies such as LBs can be supported by the raceway alone when they contain no more conductors than the raceway and no splices unless listed for them.",
+      "Boxes in a drop ceiling need their own support wires or a listed clip that attaches to the grid, not just the ceiling tile."
+    ],
+    "related": [
+      "314.16",
+      "314.29",
+      "358"
+    ],
+    "keywords": [
+      "box support",
+      "fastened",
+      "bar hanger",
+      "conduit body",
+      "raceway supported",
+      "ceiling box"
+    ]
+  },
+  {
+    "id": "314.29",
+    "edition": 2023,
+    "section": "314.29",
+    "title": "Boxes have to stay reachable",
+    "summary": "Boxes and conduit bodies must be installed so the wiring inside can be reached without removing any part of the building, such as drywall, siding, or a finished ceiling. Where boxes are underground, a listed box marked for the purpose can be covered by gravel, soil, or light aggregate if its location is permanent and effectively marked. The point is that a splice you cannot get to is a splice nobody can fix.",
+    "fieldNotes": [
+      "A box above a hard-lid ceiling or behind cabinet backs is the typical violation. Either leave an access panel or move the splice.",
+      "Attic boxes are fine as long as there is a way to get into the attic; crawl-space boxes count as accessible too.",
+      "Blank covers on empty boxes still have to be reachable; you cannot drywall over a dead box."
+    ],
+    "related": [
+      "314.16",
+      "314.23",
+      "100.listed",
+      "300.5"
+    ],
+    "keywords": [
+      "accessible",
+      "junction box",
+      "concealed splice",
+      "access panel",
+      "buried box"
+    ]
+  },
+  {
+    "id": "334.10",
+    "edition": 2023,
+    "section": "334.10",
+    "title": "Where NM cable is allowed",
+    "summary": "Nonmetallic-sheathed cable, the common Romex, is permitted in one- and two-family dwellings, multifamily dwellings, and other buildings of Type III, IV, or V construction. In those other buildings it must be concealed inside walls, floors, or ceilings that provide a 15-minute thermal barrier. NM is also allowed in cable trays in industrial settings and in Type I and II buildings only in the limited cases spelled out in this section. NMC and NMS versions have slightly different allowed uses.",
+    "fieldNotes": [
+      "Wood-frame apartment buildings of any height with Type V construction can use NM; a steel and concrete office tower cannot.",
+      "The thermal barrier requirement means exposed NM above a lay-in ceiling in a commercial building is out, while NM inside a drywalled wall of the same building is fine.",
+      "Where a dwelling has an attached commercial space, the construction type of the whole building controls, not the use of the room."
+    ],
+    "related": [
+      "334.12",
+      "334.30",
+      "300.4"
+    ],
+    "keywords": [
+      "NM cable",
+      "Romex",
+      "construction type",
+      "Type V",
+      "thermal barrier",
+      "permitted uses"
+    ]
+  },
+  {
+    "id": "334.12",
+    "edition": 2023,
+    "section": "334.12",
+    "title": "Where NM cable is not allowed",
+    "summary": "NM cable may not be used as service-entrance cable, embedded in poured concrete or aggregate, in hazardous locations, in wet or damp locations, in places exposed to corrosive fumes, in ducts and plenums, or exposed in dropped or suspended ceilings in buildings other than dwellings. In the buildings of Type III, IV, and V construction other than dwellings, it also may not be run exposed. NM is a dry-location-only product; where it leaves the dry interior, switch to UF, a raceway, or another wet-rated method.",
+    "fieldNotes": [
+      "The inside of a conduit outdoors or underground is a wet location, so sleeving NM in PVC through an exterior wall to a box outside does not make it legal.",
+      "Unfinished basements and crawl spaces are usually treated as damp or dry depending on conditions; most inspectors allow NM in a dry crawl but will fail it where there is standing water or a sump.",
+      "Garages that are open to weather or barns with washdown are damp or wet; use UF or a raceway there."
+    ],
+    "related": [
+      "334.10",
+      "334.30",
+      "300.5",
+      "300.4"
+    ],
+    "keywords": [
+      "NM cable",
+      "Romex",
+      "wet location",
+      "not permitted",
+      "damp",
+      "plenum",
+      "concrete"
+    ]
+  },
+  {
+    "id": "334.30",
+    "edition": 2023,
+    "section": "334.30",
+    "title": "Securing and supporting NM cable",
+    "summary": "NM cable must be secured with staples, listed cable ties, straps, or hangers at least every 4.5 ft and within 12 in of every box, cabinet, or fitting. Flat cables may not be stapled on edge. Cable run through holes in framing counts as supported, and cable that is fished into finished walls or ceilings does not need fastening where you cannot reach. In accessible ceilings, a length of up to 4.5 ft from the last support to a luminaire or piece of equipment is allowed as a whip.",
+    "fieldNotes": [
+      "If the nonmetallic box has no internal clamp, 314.17 requires the cable to be stapled within 8 in of the box and the sheath to extend at least 1/4 in inside.",
+      "Overdriven staples that crush the cable are a damage violation under 300.4 even if the spacing is right.",
+      "Two cables under one staple is generally accepted for 2-conductor NM; more than that or a large bundle can bring the 310.15 bundling adjustment into play when it runs more than 24 in."
+    ],
+    "related": [
+      "334.10",
+      "334.12",
+      "300.4",
+      "314.16",
+      "310.15"
+    ],
+    "keywords": [
+      "NM support",
+      "staple spacing",
+      "4.5 feet",
+      "12 inches",
+      "secured",
+      "fished cable"
+    ]
+  },
+  {
+    "id": "358",
+    "edition": 2023,
+    "section": "358.10, 358.12, 358.30",
+    "title": "EMT basics: uses, limits, and support",
+    "summary": "Electrical metallic tubing is a thin-wall steel or aluminum raceway that is not threaded; it is joined with set-screw or compression fittings. It may be run exposed or concealed, in concrete, and in wet locations when the fittings are listed for wet locations and the supports resist corrosion. It must not be used where severe corrosion will attack it, in cinder fill with permanent moisture unless protected, or as the sole support of luminaires and equipment. Secure EMT within 3 ft of every box, cabinet, or termination and at least every 10 ft, with no more than 360 degrees of total bends between pull points.",
+    "fieldNotes": [
+      "Where framing does not allow a strap within 3 ft of a termination, the distance may stretch to 5 ft on an unbroken run.",
+      "Set-screw fittings are dry-location only. Outdoors or in a washdown area use raintight compression fittings, and remember that a listed raintight coupling is not the same as a wet-location connector.",
+      "EMT is a recognized equipment grounding conductor, but every fitting must be made up tight, and many engineers still require a wire-type EGC."
+    ],
+    "related": [
+      "314.23",
+      "chapter9.table4",
+      "250.122",
+      "300.5"
+    ],
+    "keywords": [
+      "EMT",
+      "thinwall",
+      "electrical metallic tubing",
+      "strap spacing",
+      "360 degrees",
+      "compression fitting"
+    ]
+  },
+  {
+    "id": "404.2",
+    "edition": 2023,
+    "section": "404.2(C)",
+    "title": "Bring a neutral to the switch box",
+    "summary": "Where a switch controls lighting in a habitable room, bathroom, hallway, or stairway on a general-purpose circuit, the grounded conductor must be brought into the switch box so that occupancy sensors, timers, dimmers, and smart switches that need a neutral can be installed later without rewiring. The neutral does not have to be connected to anything; it just has to be there. Exceptions allow leaving it out when the box is fed by a raceway with room to add it later, or when the cable enters through a framing cavity that is open at the top or bottom, or accessible from an attic or basement, so the neutral can be fished in.",
+    "fieldNotes": [
+      "Three-way and four-way locations count. Run 3-wire-plus-ground or bring the feed through every switch box.",
+      "Capping the white at the switch box and leaving it in the box satisfies the rule; a switch loop with no neutral at all does not.",
+      "Electronic switches that use the neutral path must be listed and limited to 0.5 mA on the grounded conductor under 404.22."
+    ],
+    "related": [
+      "200.6",
+      "210.70",
+      "314.16"
+    ],
+    "keywords": [
+      "neutral at switch",
+      "switch loop",
+      "smart switch",
+      "occupancy sensor",
+      "grounded conductor",
+      "404.2(C)"
+    ]
+  },
+  {
+    "id": "406.4",
+    "edition": 2023,
+    "section": "406.4(D)",
+    "title": "Replacing receptacles: what has to be upgraded",
+    "summary": "When you replace a receptacle, you inherit the current rules for that location. If a grounding means exists in the box, the replacement must be a grounding type and be connected. If there is no ground, you may install another nongrounding receptacle, a GFCI receptacle marked that there is no equipment ground, or a grounding-type receptacle fed through a GFCI and marked as both GFCI protected and without an equipment ground. Replacements in locations that now require GFCI, AFCI, tamper-resistant, or weather-resistant receptacles must meet those requirements too.",
+    "fieldNotes": [
+      "The two-wire-to-GFCI trick is legal, but do not run a separate EGC from a GFCI-protected ungrounded receptacle to downstream devices.",
+      "AFCI on replacement can be satisfied with an outlet-branch-circuit AFCI receptacle at that location or an AFCI breaker upstream; the panel does not have to be rewired.",
+      "A receptacle that is marked as controlled by an energy management system must be replaced with one carrying the same marking."
+    ],
+    "related": [
+      "210.8",
+      "210.12",
+      "406.12",
+      "100.grounding"
+    ],
+    "keywords": [
+      "replacement receptacle",
+      "two-wire",
+      "no equipment ground",
+      "nongrounding",
+      "GFCI replacement",
+      "existing wiring"
+    ]
+  },
+  {
+    "id": "406.12",
+    "edition": 2023,
+    "section": "406.12",
+    "title": "Tamper-resistant receptacles",
+    "summary": "All 15 A and 20 A, 125 V and 250 V nonlocking receptacles in dwelling units, including the garage, outdoors, and the required spacing locations, must be tamper-resistant. The same applies in guest rooms and suites, child care facilities, preschools and elementary schools, medical and dental waiting rooms, bus and train waiting areas, gyms and skating rinks, auditoriums, dormitories, assisted living facilities, and mobile and manufactured homes. Exceptions cover receptacles more than 5.5 ft above the floor, receptacles that are part of a luminaire or appliance, a single receptacle or duplex for one or two appliances in a dedicated space such as behind a refrigerator or range, and nongrounding replacements.",
+    "fieldNotes": [
+      "The 5.5 ft exception rarely applies in houses; a counter receptacle at 44 in still needs to be TR.",
+      "GFCI and AFCI receptacles come in TR versions. Mixing a standard GFCI into a kitchen counter run is a common final call.",
+      "Weather-resistant and tamper-resistant are separate markings; outdoor receptacles at a dwelling need both."
+    ],
+    "related": [
+      "210.52",
+      "210.52(C)",
+      "406.4",
+      "210.8"
+    ],
+    "keywords": [
+      "tamper resistant",
+      "TR receptacle",
+      "child safety",
+      "dwelling receptacle",
+      "5.5 feet"
+    ]
+  },
+  {
+    "id": "408.4",
+    "edition": 2023,
+    "section": "408.4",
+    "title": "Panel directory and source labeling",
+    "summary": "Every circuit in a panelboard must be legibly identified with its clear, specific purpose on a directory inside the door or next to the device, and spares must be marked as spares. Descriptions cannot depend on who lives there or how a room happens to be used right now, so write the room location rather than a person's name. Panels fed from somewhere else must also carry a durable label telling where the feeder or service that supplies them comes from.",
+    "fieldNotes": [
+      "A pencil directory on the cardboard insert is acceptable if it is legible and durable; it is still the most-flagged item on service upgrades because it gets skipped.",
+      "The source label is required on every subpanel and on service panels fed from an outdoor emergency disconnect, and it should name the location of the upstream device, not just say main.",
+      "Multiwire branch circuits also need their ungrounded conductors grouped or identified at the panel under 210.4(D)."
+    ],
+    "related": [
+      "110.26",
+      "230.85",
+      "312.6"
+    ],
+    "keywords": [
+      "circuit directory",
+      "panel labeling",
+      "legend",
+      "spare",
+      "feeder source",
+      "panel schedule"
+    ]
+  },
+  {
+    "id": "410.16",
+    "edition": 2023,
+    "section": "410.16",
+    "title": "Luminaires in clothes closets",
+    "summary": "Only certain luminaire types are allowed in a clothes closet, and each must stay clear of the storage space, which is defined as the area within 24 in of the side and back walls up to 6 ft or the top shelf, plus 12 in around any rod. Surface-mounted incandescent or LED luminaires with a fully enclosed light source need 12 in of clearance from storage; surface fluorescent, recessed incandescent or LED with an enclosed source, and recessed fluorescent need 6 in. Surface-mounted fluorescent or LED luminaires identified for use inside the storage space may be mounted on the wall or ceiling within it. Pendants, bare lamps, and incandescent luminaires with partially exposed lamps are prohibited.",
+    "fieldNotes": [
+      "Measure horizontally from the nearest point of the storage space to the nearest point of the luminaire, not just from the shelf edge.",
+      "A keyless porcelain lampholder with a bare bulb is the classic closet violation in older homes; replace it with an enclosed LED fixture.",
+      "A walk-in closet with a storage shelf on all four walls has very little ceiling left outside the 24 in zone, so plan the fixture location before drywall."
+    ],
+    "related": [
+      "210.70",
+      "100.listed"
+    ],
+    "keywords": [
+      "closet light",
+      "storage space",
+      "12 inches",
+      "6 inches",
+      "enclosed lamp",
+      "pendant"
+    ]
+  },
+  {
+    "id": "422.16",
+    "edition": 2023,
+    "section": "422.16, 422.33",
+    "title": "Cord-connected appliances and their disconnect",
+    "summary": "Specific built-in appliances may be cord-and-plug connected when the cord is identified for the use and the receptacle is in an accessible location. Disposals get a cord of 18 to 36 in, dishwashers and trash compactors 3 to 6.5 ft, and range hoods 18 to 48 in. The plug and receptacle then count as the disconnecting means under 422.33, which is the main reason to cord-connect these appliances instead of hard-wiring them.",
+    "fieldNotes": [
+      "A hard-wired disposal or dishwasher with no accessible receptacle needs another disconnect: a breaker lockout listed for the panel, or a switch within sight.",
+      "The dishwasher receptacle must be where it can be reached without pulling the machine, which usually means the adjacent sink cabinet.",
+      "Range hood receptacles must be on an individual branch circuit, and the receptacle under the sink for a disposal needs GFCI protection as a kitchen receptacle."
+    ],
+    "related": [
+      "210.8",
+      "210.11",
+      "440.14",
+      "100.listed"
+    ],
+    "keywords": [
+      "appliance disconnect",
+      "cord and plug",
+      "dishwasher",
+      "disposal",
+      "range hood",
+      "cord length"
+    ]
+  },
+  {
+    "id": "430.6",
+    "edition": 2023,
+    "section": "430.6",
+    "title": "Which motor current to use: table or nameplate",
+    "summary": "For sizing motor branch-circuit conductors, disconnects, and short-circuit and ground-fault protection, use the full-load current from Tables 430.247 through 430.250 for the motor's horsepower, voltage, and phase, not the number on the nameplate. The nameplate full-load amps are used only for overload protection and for a few motor types the tables do not cover, such as torque motors, shaded-pole and permanent-split-capacitor fan motors marked in amps, and multispeed motors.",
+    "fieldNotes": [
+      "If the nameplate shows a nonstandard voltage like 200 V or 208 V, use the table column that matches or interpolate; do not use the 230 V column for a 208 V motor.",
+      "A motor marked with amps and no horsepower is treated as the horsepower that matches its amps in the table.",
+      "Overloads come from the nameplate; conductors and breakers come from the table. Mixing these up is the most common motor calculation error."
+    ],
+    "related": [
+      "430.22",
+      "430.32",
+      "430.52",
+      "440.14"
+    ],
+    "calculators": [
+      "motor"
+    ],
+    "keywords": [
+      "motor full load current",
+      "FLC table",
+      "nameplate",
+      "Table 430.248",
+      "Table 430.250",
+      "horsepower"
+    ]
+  },
+  {
+    "id": "430.22",
+    "edition": 2023,
+    "section": "430.22",
+    "title": "Sizing conductors for a single motor",
+    "summary": "Branch-circuit conductors to a continuous-duty motor must have an ampacity of at least 125% of the motor's table full-load current. Multispeed motors are sized to the highest full-load current on the nameplate for the winding supplied, and wound-rotor secondaries have their own percentages. Motors that run on short-time, intermittent, or periodic duty can use the lower percentages in Table 430.22(E) because they have time to cool, and conductors for several motors on one circuit are sized under 430.24 at 125% of the largest plus the sum of the rest.",
+    "fieldNotes": [
+      "A 10 hp, 230 V three-phase motor has a table FLC of 28 A, so the conductors need 35 A of ampacity: 10 AWG copper at 75 C. The breaker can be much larger under 430.52; that is normal for motors.",
+      "The 125% is applied to the table current, not the nameplate current, and before any ambient or bundling adjustment.",
+      "Small-conductor limits in 240.4(D) do not apply to motor circuits; 240.4(G) sends you to Article 430 instead."
+    ],
+    "related": [
+      "430.6",
+      "430.52",
+      "430.32",
+      "310.16",
+      "240.4"
+    ],
+    "calculators": [
+      "motor",
+      "ampacity"
+    ],
+    "keywords": [
+      "motor conductors",
+      "125 percent",
+      "motor wire size",
+      "continuous duty",
+      "several motors"
+    ]
+  },
+  {
+    "id": "430.32",
+    "edition": 2023,
+    "section": "430.32",
+    "title": "Motor overload protection",
+    "summary": "Overload protection guards the motor windings against running too hot for too long, which the breaker upstream does not do. For a continuous-duty motor over 1 hp, the overload relay or thermal protector is set from the nameplate full-load amps: 125% for a motor with a service factor of 1.15 or more or a marked temperature rise of 40 C or less, and 115% for everything else. If that setting will not let the motor start, 430.32(C) allows going up to 140% and 130% respectively. Motors 1 hp and under that start automatically need overload protection too; manually started ones within sight of the operator may rely on the branch-circuit device.",
+    "fieldNotes": [
+      "Use nameplate amps here, never the table value; the table is for conductors and breakers.",
+      "A motor with a built-in thermal protector marked thermally protected satisfies this section without a separate overload relay.",
+      "Overload heaters are selected by the manufacturer's heater chart using the nameplate amps and service factor, and the chart already builds in the percentage, so do not multiply twice."
+    ],
+    "related": [
+      "430.6",
+      "430.22",
+      "430.52"
+    ],
+    "calculators": [
+      "motor"
+    ],
+    "keywords": [
+      "motor overload",
+      "overload relay",
+      "service factor",
+      "115 percent",
+      "125 percent",
+      "thermal protector"
+    ]
+  },
+  {
+    "id": "430.52",
+    "edition": 2023,
+    "section": "430.52",
+    "title": "Motor short-circuit and ground-fault protection",
+    "summary": "The breaker or fuse for a motor circuit only has to handle faults and starting inrush; the overload relay handles overloads. That lets it be much larger than the conductors would normally allow. Table 430.52(C)(1) gives the maximum as a percentage of table full-load current: 250% for an inverse-time breaker, 175% for dual-element time-delay fuses, 300% for nontime-delay fuses, and 800% for instantaneous-trip breakers in a listed combination starter. If the calculation does not land on a standard size you may go up to the next one, and if the motor still will not start you may go as high as 400% for breakers 100 A and less, 300% for larger breakers, and 225% for time-delay fuses.",
+    "fieldNotes": [
+      "A 10 hp, 230 V three-phase motor with 28 A table FLC can have a 70 A inverse-time breaker on 10 AWG conductors, and that is legal because the overload relay protects the wire.",
+      "The percentages are maximums, not requirements; many designers pick the next standard size above the FLC and move up only when nuisance trips occur.",
+      "In 2023 the table was renumbered from Table 430.52 to Table 430.52(C)(1); the values did not change."
+    ],
+    "related": [
+      "430.6",
+      "430.22",
+      "430.32",
+      "240.6",
+      "240.4(B)"
+    ],
+    "calculators": [
+      "motor"
+    ],
+    "keywords": [
+      "motor breaker",
+      "250 percent",
+      "175 percent",
+      "short circuit protection",
+      "Table 430.52",
+      "inrush"
+    ]
+  },
+  {
+    "id": "440.14",
+    "edition": 2023,
+    "section": "440.14",
+    "title": "Disconnect location for air-conditioning equipment",
+    "summary": "Air-conditioning and refrigeration equipment needs a disconnecting means within sight of the unit and readily accessible. Within sight means visible and not more than 50 ft away. The disconnect may be mounted on or inside the equipment but may not block access to the nameplate or any panel that has to be removed for service, and it may not sit over the equipment's electrical compartment. Cord-and-plug connected room units and equipment covered by other exceptions get a pass.",
+    "fieldNotes": [
+      "Mount the disconnect on the wall next to the condenser, not on the unit, so it does not have to be moved when the unit is replaced and so the working space under 110.26 is clear.",
+      "The disconnect needs the 110.26 working space in front of it: 3 ft deep and 30 in wide, which rules out stuffing it behind the condenser against the house.",
+      "A breaker in a panel across the yard that you cannot see from the unit does not count even if it is within 50 ft."
+    ],
+    "related": [
+      "110.26",
+      "430.6",
+      "422.16",
+      "100.listed"
+    ],
+    "calculators": [
+      "motor"
+    ],
+    "keywords": [
+      "A/C disconnect",
+      "within sight",
+      "50 feet",
+      "condenser",
+      "HVAC",
+      "refrigeration"
+    ]
+  },
+  {
+    "id": "450.3",
+    "edition": 2023,
+    "section": "450.3(B)",
+    "title": "Overcurrent protection for transformers 1000 V and under",
+    "summary": "Table 450.3(B) gives two ways to protect a transformer. With primary-only protection, the primary device can be up to 125% of the rated primary current, and if that does not land on a standard rating you may go to the next size up; small transformers under 9 A primary may go to 167%, and under 2 A to 300%. With protection on both sides, the primary device may be as large as 250% of primary current and the secondary device is capped at 125% of secondary current, or 167% when the secondary current is under 9 A. These percentages protect the transformer windings, not the conductors.",
+    "fieldNotes": [
+      "A 75 kVA, 480 V to 208Y/120 V transformer has a primary current of about 90 A and a secondary of about 208 A. Primary-only protection allows a 125 A breaker; with a secondary main the primary may go up to 225 A.",
+      "The secondary conductors still need protection under the 240.21(C) rules; the primary breaker does not protect them on a 4-wire secondary.",
+      "A transformer secondary main also helps with the 110.26 working space and makes the secondary conductor sizing straightforward."
+    ],
+    "related": [
+      "240.21",
+      "240.6",
+      "240.4(B)",
+      "250.24"
+    ],
+    "calculators": [
+      "transformer"
+    ],
+    "keywords": [
+      "transformer protection",
+      "125 percent",
+      "250 percent",
+      "primary breaker",
+      "secondary breaker",
+      "Table 450.3(B)"
+    ]
+  },
+  {
+    "id": "625.40",
+    "edition": 2023,
+    "section": "625.40",
+    "title": "Branch circuit for an EV charger",
+    "summary": "Each outlet installed for electric vehicle charging must be on its own individual branch circuit with no other outlets on it. The load is treated as continuous, so the conductors and overcurrent device are sized at 125% of the charger's rated input, which is why a 48 A charger needs a 60 A circuit. The 2023 edition allows more than one piece of charging equipment on a circuit when a listed energy management system controls the total load.",
+    "fieldNotes": [
+      "A 40 A rated EVSE goes on a 50 A circuit with 8 AWG copper at 75 C; a 48 A unit needs 60 A and 6 AWG copper. Hard-wire any unit over 40 A input, since 50 A receptacles are the practical limit for plug-in.",
+      "A plug-in EVSE on a 14-50 receptacle in a garage needs GFCI protection and the receptacle must be listed for the duty; many jurisdictions also want a ground-fault breaker for hard-wired units.",
+      "Adjustable-current EVSEs are sized to the setting they are locked at, which lets a 48 A unit run on a 40 A circuit when it is set to 32 A."
+    ],
+    "related": [
+      "210.19",
+      "210.8",
+      "240.4(B)",
+      "310.16"
+    ],
+    "calculators": [
+      "ampacity",
+      "voltage-drop"
+    ],
+    "keywords": [
+      "EV charger",
+      "EVSE",
+      "electric vehicle",
+      "individual branch circuit",
+      "continuous load",
+      "60 amp"
+    ]
+  },
+  {
+    "id": "690.12",
+    "edition": 2023,
+    "section": "690.12",
+    "title": "Rapid shutdown for rooftop PV systems",
+    "summary": "PV systems on buildings need a rapid shutdown function so firefighters can de-energize the circuits leaving the array. Conductors more than 1 ft outside the array boundary, or more than 3 ft from the point they enter the building, must drop to 30 V or less within 30 seconds of shutdown being initiated. Inside the boundary the array must either be a listed rapid shutdown PV array, or have its conductors limited to 80 V within 30 seconds, which in practice means module-level electronics such as microinverters or optimizers. The initiating device must be at the service disconnect or another readily accessible location and clearly labeled.",
+    "fieldNotes": [
+      "Ground-mounted arrays and PV not on buildings are not required to have rapid shutdown, but the labeling at the service still has to be accurate.",
+      "The initiating device is usually the main PV AC disconnect or the service disconnect. Add the required rapid shutdown label from 690.56(C) at that device; it is a common inspection miss.",
+      "Microinverter systems meet the inside-the-array rule by design. String inverters with no module-level electronics almost never do."
+    ],
+    "related": [
+      "230.85",
+      "100.listed",
+      "702"
+    ],
+    "keywords": [
+      "rapid shutdown",
+      "solar",
+      "PV",
+      "firefighter",
+      "array boundary",
+      "30 volts",
+      "80 volts"
+    ]
+  },
+  {
+    "id": "700",
+    "edition": 2023,
+    "section": "Article 700",
+    "title": "Emergency systems: life-safety power",
+    "summary": "Article 700 covers power that is legally required by building or fire codes to keep life-safety loads running when normal power fails, such as egress lighting, exit signs, and fire alarm. The transfer equipment must be automatic, listed for emergency use, and arranged so the emergency and normal sources cannot be connected together. Emergency wiring is kept physically separate from all other wiring, and the system has to pick up the load within 10 seconds. The installation must be witness-tested and maintained with records.",
+    "fieldNotes": [
+      "Whether a system is emergency, legally required standby, or optional standby is decided by the building code and the fire marshal, not the electrician. Ask before you design the transfer scheme.",
+      "Emergency circuits cannot share a raceway, box, or panel with normal circuits except at the transfer switch and a few other listed points. Separate panels and feeders are the norm.",
+      "Emergency panels and transfer switches need surge protection and selective coordination of overcurrent devices, which is an engineering task."
+    ],
+    "related": [
+      "702",
+      "100.listed",
+      "408.4"
+    ],
+    "calculators": [
+      "power"
+    ],
+    "keywords": [
+      "emergency system",
+      "egress lighting",
+      "transfer switch",
+      "10 seconds",
+      "life safety",
+      "automatic transfer"
+    ]
+  },
+  {
+    "id": "702",
+    "edition": 2023,
+    "section": "Article 702",
+    "title": "Optional standby: home and business generators",
+    "summary": "Article 702 covers generators and other backup sources that the owner wants but no code requires, which is nearly every residential standby system. Transfer equipment is mandatory and must prevent the generator from ever connecting to the utility. With automatic transfer, the generator must be sized for the full load that will be transferred, or a load management system must shed loads to keep it within rating. With manual transfer, the user is expected to pick the loads, so the generator only needs to handle what the owner intends to run. A sign at the service entrance must identify the type and location of the standby source.",
+    "fieldNotes": [
+      "A portable generator plugged into a power inlet needs a listed transfer switch or interlock kit for that specific panel, and the inlet needs a warning sign about generator back-feed.",
+      "A permanently installed outdoor generator with a readily accessible disconnect within sight of the building does not need a second disconnect at the building.",
+      "Generator neutral bonding matters: a standby generator feeding a transfer switch that switches only the hots must have its neutral unbonded (floating), while a portable with a bonded neutral on a switched-neutral transfer switch is fine. Mismatching trips GFCI breakers and double-bonds the system."
+    ],
+    "related": [
+      "700",
+      "250.24",
+      "230.85",
+      "220.82"
+    ],
+    "calculators": [
+      "power",
+      "dwelling-load"
+    ],
+    "keywords": [
+      "standby generator",
+      "transfer switch",
+      "interlock",
+      "power inlet",
+      "load shedding",
+      "optional standby"
+    ]
+  },
+  {
+    "id": "chapter9.table8",
+    "edition": 2023,
+    "section": "Chapter 9, Table 8",
+    "title": "Conductor properties: area, strands, and DC resistance",
+    "summary": "Table 8 lists the physical properties of each conductor size: circular-mil area, number of strands, bare diameter and area, and DC resistance in ohms per 1000 ft at 75 C for uncoated copper, coated copper, and aluminum. These are the numbers behind voltage-drop and parallel-conductor calculations. For example, 12 AWG is 6530 circular mils and stranded uncoated copper runs about 1.98 ohms per 1000 ft, while 4/0 AWG is 211,600 circular mils and about 0.0608 ohms per 1000 ft. A note under the table gives a temperature adjustment for resistance at other conductor temperatures.",
+    "fieldNotes": [
+      "Table 8 is DC resistance. For AC circuits in steel conduit at larger sizes, Table 9 gives the effective impedance that accounts for skin effect and reactance; the difference matters above about 1/0 AWG.",
+      "The circular-mil column is what you use when 250.122(B) asks you to upsize an EGC in proportion to the ungrounded conductors.",
+      "Aluminum of the same size has about 1.6 times the resistance of copper, which is why aluminum feeders are usually two sizes larger for the same voltage drop."
+    ],
+    "related": [
+      "chapter9.table5",
+      "310.10",
+      "250.122",
+      "210.19"
+    ],
+    "calculators": [
+      "voltage-drop"
+    ],
+    "keywords": [
+      "conductor properties",
+      "DC resistance",
+      "circular mils",
+      "ohms per 1000 feet",
+      "strands",
+      "Table 8"
+    ]
   }
 ]
